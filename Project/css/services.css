@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,600&family=Raleway&family=Roboto:wght@500;700&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 3000px;
+    width: 100%;
+    margin-top:-30px;
+    background-image: url('./img/isometric-programmer-coding-new-project-web-development-programming-skills-website-web-banner-illustration-project-team-engineers-website-php-html-css-js_589019-3110.webp');
+    background-repeat: no-repeat;
+    background-size: 1700px;
+}
+
+header{
+    /* border: 1px solid black; */
+}
+
+.mother{
+   /* background-color: rgba(158, 70, 110, 0.453); */
+}
+
+
+
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: -2pc;
+    /* border-bottom: 1px solid black; */
+    padding: 10px;
+    background-color: rgba(155, 35, 121);
+    position:sticky;
+    top: 0;
+    opacity: 0.93;
+}
+
+
+
+
+.logo{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.mms-it{
+    color: rgba(233, 233, 233, 0.959);
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.nav{
+
+}
+
+
+
+.nav-link{
+    font-family: 'Raleway','Padauk', sans-serif !important;
+    font-size: 19px;
+    font-weight: 100;
+    color: rgba(93, 93, 93, 0.592);
+}
+
+.link{
+    text-decoration: none;
+    color: rgba(135, 135, 135, 0.805);
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 3px;
+    position: relative;
+}
+
+
+
+.link::after{
+    content: '';
+    position:absolute;
+
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    transform: scaleX(0);
+    transition: transform .3s ease-in;
+    transform-origin:center;
+
+    top: 27px;
+    right: 0;
+    left: 1.6px;
+    bottom: 0;
+    width: 95%;
+   
+}
+
+.link:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
+    
+}
+
+.link:hover{
+    font-size: 20px;
+    color: #cfcfcfc0;
+}
+
+.main-services-container{
+    margin-top: 8pc;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.project-controller{
+
+}
+.project{
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    font-weight: lighter;
+}
+.success-business{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-div-container{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.poster{
+
+}
+.f1-div{
+    border: 1px solid black;
+    width:280px;
+}
+.f2-div{
+    border: 1px solid black;
+    width:280px;   
+}
+.f3-div{
+    border: 1px solid black;
+    width:280px;  
+}
+.f4-div{
+    border: 1px solid black;
+    width:280px;   
+}
+.f5-div{
+    border: 1px solid black;
+    width:280px;   
+}
+.f6-div{
+    border: 1px solid black;
+    width:280px; 
+}
+.f7-div{
+    border: 1px solid black;
+    width:280px;
+}
+.f8-div{
+    border: 1px solid black;
+    width:280px;  
+}
+.f9-div{
+    border: 1px solid black;
+    width:280px;   
+}
+
+.poster-img{
+
+}
+.poster-h2{
+
+}
+.light-h2{
+
+}
+

@@ -31,7 +31,7 @@ header{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 2px;
-    margin-bottom: 9pc;
+    margin-bottom: -2pc;
     /* border-bottom: 1px solid black; */
     padding: 10px;
     background-color: rgba(155, 35, 121);
@@ -57,6 +57,10 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     display: inline-block;
+}
+
+.image-logo{
+    width :50px;
 }
 
 .nav{
@@ -147,7 +151,7 @@ header{
 
 .h1-section{
     margin: 10px;
-    font-size: 3.4em;
+    font-size: 2.4em;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -315,7 +319,8 @@ header{
 
 .text-mm{
     text-align: center;
-    margin-top: 8em;
+    border: 1px solid black;
+    margin-top: 6.5em;
     font-size: 25px;
     color: rgba(94, 92, 92, 0.755);
     line-height: 2;
@@ -405,6 +410,9 @@ header{
     .button-toggle{
         display: block;
     }
+    .circle-play{
+        font-size: 9em;
+    }
 }
 
 @media screen and (max-width:720px) {
@@ -415,7 +423,26 @@ header{
     .text{
         font-size: 1em;
     }
+    .img{
+        width: 80px;
+    }
 
+    .verify-container{
+        width: 80%;
+        padding: 10px;
+    }
+    .circle-play{
+        font-size: 7em;
+    }
+    .circle-play:hover{
+        font-size: 7.1em;
+    }
+    .verify{
+        font-size: 24px;
+    }
+    .text-mm{
+        font-size: 19px;
+    }
 }
 
 
@@ -434,6 +461,17 @@ header{
     .web{
         height: 60%;
     }
+
+    .logo{
+        margin-top: 10px;
+    }
+    .mms-it{
+        font-size: 20px;
+    }
+    .image-logo{
+        width: 40px;
+    }
+
 }
     
 
