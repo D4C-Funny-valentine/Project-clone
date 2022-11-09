@@ -1,0 +1,28 @@
+.hello{
+    border: 1px solid black;
+    width: 100%;
+    margin: 0 auto;
+    animation: hello 5s ;
+}
+
+
+.hi{
+    color: red;
+
+}
+
+.text{
+        color: black;
+}
+
+@keyframes hello 
+{
+    from{
+        background-color: lightblue;
+    }
+    to{
+        background-color: lightgray;
+    }
+}
+
+
