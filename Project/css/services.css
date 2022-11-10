@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,600&family=Raleway&family=Roboto:wght@500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Assistant:wght@600&family=Carter+One&family=Nanum+Gothic&family=Noto+Sans:wght@600&family=Oswald&family=Roboto&display=swap');
 *{
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,8 +28,8 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 2px;
-    margin-bottom: -2pc;
+    /* margin-top: 2px; */
+    /* margin-bottom: -2pc; */
     /* border-bottom: 1px solid black; */
     padding: 10px;
     background-color: rgba(155, 35, 121);
@@ -138,53 +136,60 @@ header{
     justify-content: center;
     gap: 10px;
 }
-.poster{
+.cotainer-creator-info{
+    background-color: #cfcfcfc0;
+    border: 3px solid black;
+    width: 900px;
+    display: block;
+    margin: 5pc auto;
+    /* padding-bottom: 5pc; */
+}
+.first-creator-info,.second-creator-info{
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: space-evenly;
+}
+.img-creator{border-radius: 10px;
+    border: 1px solid grey;
+    margin-top: 3pc;
+    width: 300px;
+}
+.creator-info{
+    margin-top: 5pc;
+    width: 400px;
+}
+.creator-title{
+    text-shadow : 8px 2px 10px rgb(65, 65, 65);
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.about-title{
+    margin-top: 3pc;
+    text-align: center;
+}
+.about-h1{
+    font-size: 60px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.about-word{
+    margin: 20px auto;
+    width: 500px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.creator-about{
+    text-align: start;
+    font-size: 30px;
+    line-height: 3pc;
+    font-family: 'Roboto', sans-serif;
 
 }
-.f1-div{
-    border: 1px solid black;
-    width:280px;
+.icon-cotainer{
+    text-align: center;
+    margin: 20px ;
 }
-.f2-div{
-    border: 1px solid black;
-    width:280px;   
+.icon-info{
+    font-size: 30px;
+    padding: 20px 15px 10px;
 }
-.f3-div{
-    border: 1px solid black;
-    width:280px;  
-}
-.f4-div{
-    border: 1px solid black;
-    width:280px;   
-}
-.f5-div{
-    border: 1px solid black;
-    width:280px;   
-}
-.f6-div{
-    border: 1px solid black;
-    width:280px; 
-}
-.f7-div{
-    border: 1px solid black;
-    width:280px;
-}
-.f8-div{
-    border: 1px solid black;
-    width:280px;  
-}
-.f9-div{
-    border: 1px solid black;
-    width:280px;   
-}
-
-.poster-img{
-
-}
-.poster-h2{
-
-}
-.light-h2{
-
-}
-
