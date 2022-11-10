@@ -11,7 +11,7 @@ body{
     height: 3000px;
     width: 100%;
     margin-top:-30px;
-    background-image: url('./img/isometric-programmer-coding-new-project-web-development-programming-skills-website-web-banner-illustration-project-team-engineers-website-php-html-css-js_589019-3110.webp');
+    background-image: url("/Project/img/isometric-programmer-coding-new-project-web-development-programming-skills-website-web-banner-illustration-project-team-engineers-website-php-html-css-js_589019-3110.webp");
     background-repeat: no-repeat;
     background-size: 1700px;
 }

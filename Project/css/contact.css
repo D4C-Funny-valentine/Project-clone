@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,600&family=Merriweather:wght@400;700&family=Raleway&family=Roboto:wght@500;700&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 3000px;
+    width: 100%;
+    margin-top:-30px;
+    background-size: 1700px;
+}
+
+header{
+    /* border: 1px solid black; */
+}
+
+.mother{
+   /* background-color: rgba(158, 70, 110, 0.453); */
+}
+
+
+
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: -2pc;
+    /* border-bottom: 1px solid black; */
+    padding: 10px;
+    background-color: rgba(155, 35, 121);
+    position:sticky;
+    top: 0;
+    opacity: 0.93;
+}
+
+
+
+
+.logo{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.mms-it{
+    color: rgba(233, 233, 233, 0.959);
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.image-logo{
+    width :50px;
+}
+
+.nav{
+
+}
+
+
+
+.nav-link{
+    font-family: 'Raleway','Padauk', sans-serif !important;
+    font-size: 19px;
+    font-weight: 100;
+    color: rgba(93, 93, 93, 0.592);
+}
+
+.link{
+    text-decoration: none;
+    color: rgba(135, 135, 135, 0.805);
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 3px;
+    position: relative;
+}
+
+
+
+.link::after{
+    content: '';
+    position:absolute;
+
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    transform: scaleX(0);
+    transition: transform .3s ease-in;
+    transform-origin:center;
+
+    top: 27px;
+    right: 0;
+    left: 1.6px;
+    bottom: 0;
+    width: 95%;
+   
+}
+
+.link:hover::after{
+    transform: scaleX(1);
+    transform-origin: center;
+    
+}
+
+.link:hover{
+    font-size: 20px;
+    color: #cfcfcfc0;
+}
+
+
+.MC-contact{
+    margin: 5pc auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.contact-us{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+.contact{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.ul-li{
+    text-align: start;
+    padding: 25px;
+    width: 550px;
+    border: 1px solid rgb(215, 215, 215);
+    background-color: rgba(242, 242, 242, 0.888);
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px 1px rgba(65, 64, 64, 0.951);
+}
+.contact-ul{
+    list-style: none;
+    font-family: 'Lora', serif;
+}
+.contact-li{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    color: rgba(21, 20, 20, 0.834);
+    margin: 10px;
+}
+.contact-email-link{
+    text-decoration: none;
+    color: black;
+}
+.contact-phone-link{
+    text-decoration: none;
+    color: black;
+}
+.email-text{
+    padding: 0px 50px;
+    display: inline-block;
+}
+.ph-text{
+    display: inline-block;
+    padding: 0 13px;
+}
+.map{
+    text-decoration: none;
+    color: black;
+}
+.contact-address{
+    display: inline-block;
+    padding: 0 33px;
+}
+.text{
+    color: rgba(47, 47, 47, 0.834);
+}
+
+
+
+.H2{
+    display: block;
+    width: 100%;
+}
+
+.main-container-from{
+    margin-top: 5pc;
+    border: 1px solid black;
+    padding: 20px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10pc auto;
+}
+
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+::placeholder{
+    color: rgba(230, 230, 230, 0.93);
+}
+
+.input-control{
+    width: 220px;
+    height: 35px;
+    background-color: rgba(105, 68, 141, 0.905);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+.input-FN{
+
+}
+.input-LN{
+
+}
+.email-ph{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+
+.input-email{
+
+}
+.input-ph{
+
+}
+.input-add{
+    width: 90%;
+}
+.input-add-light{
+    width: 100%;
+}
+.input-textarea{
+
+}
