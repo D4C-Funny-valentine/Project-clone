@@ -153,7 +153,7 @@ header{
     justify-content: space-evenly;
 }
 .img-creator{border-radius: 10px;
-    border: 1px solid grey;
+    border: 2px solid rgb(16, 48, 233);
     margin-top: 3pc;
     width: 250px;
 }
@@ -162,8 +162,9 @@ header{
     width: 400px;
 }
 .creator-title{
+    letter-spacing: 5px;
     text-shadow : 8px 2px 10px rgb(65, 65, 65);
-    font-size: 50px;
+    font-size: 40px;
     padding-bottom: 30px;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -182,8 +183,9 @@ header{
     font-family: 'Oswald', sans-serif;
 }
 .creator-about{
+    letter-spacing: 3px;
     text-align: start;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 3pc;
     font-family: 'Roboto', sans-serif;
 
@@ -251,6 +253,17 @@ header{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding: 5px 10px 20px 10px;
+    padding: 5px 10px 20px 10px
+
+ }
+ .review-cotainer:hover .review-icon{
+    transform: scale(1.5);
+    transition: 0.8s;
+    transform-origin: center;
+ }
+ .review-cotainer:hover{
+    padding-top: 20px;
+    background-color: #dbdbdb48;
+    transition: 0.5s;
  }
  
