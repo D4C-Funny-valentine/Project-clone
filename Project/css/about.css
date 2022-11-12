@@ -142,8 +142,10 @@ header{
     gap: 10px;
 }
 .cotainer-creator-info{
-    box-shadow: 0px 0px 10px 3px grey;
-    background-color: white;
+    color: white;
+    box-shadow: 0px 0px 30px 2px rgb(48, 95, 182);
+    background-image: linear-gradient(357deg,#4f705e,#4a97d7,#6900ffa8);  
+      /* border: 3px solid black; */
     /* border: 3px solid black; */
     width: 900px;
     display: block;
@@ -167,7 +169,7 @@ header{
 }
 .creator-title{
     letter-spacing: 5px;
-    text-shadow : 8px 2px 10px rgb(65, 65, 65);
+    text-shadow : 8px 2px 10px rgb(175, 173, 173);
     font-size: 40px;
     padding-bottom: 30px;
     font-family: 'Noto Sans', sans-serif;
@@ -207,7 +209,7 @@ header{
     transition: .7s;
 }
 .fb-color{
-    color: #097EEB;
+    color: #002fff;
 }
 .ig-color{
     color: #8a3ab9;
