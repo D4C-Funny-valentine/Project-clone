@@ -117,8 +117,11 @@ header{
 
 .MC-contact{
     margin: 5pc auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .contact-us{
@@ -127,7 +130,7 @@ header{
     text-align: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 20px;
     
 }
@@ -190,18 +193,22 @@ header{
 .H2{
     display: block;
     width: 100%;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    margin: 0 0 20px 35px;
 }
 
 .main-container-from{
     margin-top: 5pc;
-    border: 1px solid black;
+    margin: 10pc auto;
     padding: 20px;
     width: 600px;
+    border-radius: 5px;
+    background-color: #eaeaeae1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 10pc auto;
 }
 
 
@@ -216,7 +223,8 @@ header{
 
 
 ::placeholder{
-    color: rgba(230, 230, 230, 0.93);
+    color: rgba(35, 29, 29, 0.93);
+    font-family: 'Lora', serif;
 }
 
 .input-control{
@@ -226,6 +234,7 @@ header{
     border: none;
     padding: 10px;
     border-radius: 5px;
+    border-color: inherit;
 }
 
 
@@ -251,11 +260,45 @@ header{
 
 }
 .input-add{
-    width: 90%;
+    width: 480px;
 }
 .input-add-light{
     width: 100%;
 }
-.input-textarea{
-
+.textarea-container{
+    width: 480px;
 }
+.textarea{
+    padding: 10px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    overflow-wrap: normal;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(105, 68, 141, 0.905);
+}
+.AYS{
+    display: block;
+    text-align: center;
+}
+.checkbox{
+    margin: 3px;
+    accent-color: rgb(136, 135, 135);
+}
+.span-sure{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lora', serif;
+}
+.btn{
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: rgba(109, 58, 135, 0.878);
+    border-radius: 5px;
+    border: none;
+    width: 70px;
+    cursor: pointer;
+}
+
