@@ -302,3 +302,72 @@ header{
     cursor: pointer;
 }
 
+
+.main-footer{
+    background-color: #151212f0;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.footer{
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.footer-left{
+    width: 400px;
+    display: flex;
+    color: #bbbbbbee;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo-div{
+    margin-top: 20px;
+    display: flex;
+}
+
+.logo{
+    color: #bbbbbbee;
+    font-size: 1.4em;
+    margin: 5px;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: space-evenly;
+    color: #bbbbbbee;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+}
+li{
+    list-style: none;
+}
+
+.box{
+
+}
+h2{
+    margin-bottom: 15px;
+}
+
+.design-link{
+    text-decoration: none;
+    color: #bbbbbbee;
+    margin: 5px;
+}
+
+.footer-bottom{
+    color: #bbbbbbee;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
